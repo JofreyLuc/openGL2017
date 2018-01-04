@@ -1,0 +1,13 @@
+﻿La génération a démarré 04/01/2018 14:56:55.
+     1>Projet "G:\Fac\Projets\OpenGL\OpenGLExoDessinCarre-Correction\ExoDessinCarre\ExoDessinCarre.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>Link:
+         E:\Logiciels\Microsoft Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Fac\Projets\OpenGL\OpenGLExoDessinCarre-Correction\Debug\ExoDessinCarre.exe" /INCREMENTAL /NOLOGO /LIBPATH:"G:\Fac\Projets\OpenGL\Librairies\SDL2-devel-2.0.6-VC\SDL2-2.0.6\lib\x86" /LIBPATH:"G:\Fac\Projets\OpenGL\Librairies\glew-2.1.0-win32\glew-2.1.0\lib\Release\Win32" opengl32.lib SDL2.lib SDL2main.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Fac\Projets\OpenGL\OpenGLExoDessinCarre-Correction\Debug\ExoDessinCarre.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Fac\Projets\OpenGL\OpenGLExoDessinCarre-Correction\Debug\ExoDessinCarre.lib" /MACHINE:X86 Debug\Carre.obj
+         Debug\SceneOpenGL.obj
+         Debug\Source.obj
+            Création de la bibliothèque G:\Fac\Projets\OpenGL\OpenGLExoDessinCarre-Correction\Debug\ExoDessinCarre.lib et de l'objet G:\Fac\Projets\OpenGL\OpenGLExoDessinCarre-Correction\Debug\ExoDessinCarre.exp
+         ExoDessinCarre.vcxproj -> G:\Fac\Projets\OpenGL\OpenGLExoDessinCarre-Correction\Debug\ExoDessinCarre.exe
+     1>Génération du projet "G:\Fac\Projets\OpenGL\OpenGLExoDessinCarre-Correction\ExoDessinCarre\ExoDessinCarre.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.37
