@@ -1,5 +1,5 @@
-#ifndef DEF_TRIANGLE
-#define DEF_TRIANGLE
+#ifndef DEF_CARRE
+#define DEF_CARRE
 
 #include <GL/glew.h>
 #include <string>

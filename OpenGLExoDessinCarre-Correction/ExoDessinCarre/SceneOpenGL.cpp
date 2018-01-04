@@ -83,14 +83,12 @@ bool SceneOpenGL::initGL()
 	return true;
 }
 
-
-//--------------------------------ZONE DE MODIFICATION A PARTIR D'ICI------------------------------
 void SceneOpenGL::bouclePrincipale()
 {
 	// Variables
 	bool terminer(false);
 
-	//Création du triangle
+	//Création du carre
 	Carre carre = Carre();
 
 	// Boucle principale
@@ -104,11 +102,10 @@ void SceneOpenGL::bouclePrincipale()
 		// Nettoyage de l'écran
 		glClear(GL_COLOR_BUFFER_BIT);
 
-		//Affichage du triangle
+		//Affichage du carre
 		carre.afficher();
 
 		// Actualisation de la fenêtre
 		SDL_GL_SwapWindow(this->fenetre);
 	}
 }
-//-------------------------------FIN DE LA ZONE DE MODIFICATIONS----------------------------------

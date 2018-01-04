@@ -22,7 +22,7 @@ Carre::~Carre()
 
 void Carre::afficher()
 {
-	// Envoi des vertices
+	// Envoi des sommets
 
 	glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 0, sommets);
 	glEnableVertexAttribArray(0);
