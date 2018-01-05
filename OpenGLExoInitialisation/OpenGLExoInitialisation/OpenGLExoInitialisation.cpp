@@ -45,7 +45,11 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	// Création de la fenêtre
 
-	fenetre = SDL_CreateWindow("Test SDL 2.0", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL);
+
+	/*** 
+	Créer la fenêtre ici 
+	***/
+
 
 	if (fenetre == 0)
 	{
@@ -58,7 +62,11 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	// Création du contexte OpenGL
 
-	contexteOpenGL = SDL_GL_CreateContext(fenetre);
+
+	/***
+	Créer le contexte OpenGL ici
+	***/
+
 
 	if (contexteOpenGL == 0)
 	{
