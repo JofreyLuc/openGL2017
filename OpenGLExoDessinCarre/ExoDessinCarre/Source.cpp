@@ -4,7 +4,7 @@
 int main(int argc, char **argv)
 {
 	// Création de la sène
-	SceneOpenGL scene("Exercice Carre", 800, 600);
+	SceneOpenGL scene("Exercice Carre", 800, 800);
 
 	// Initialisation de la scène
 	if (scene.initialiserFenetre() == false)
