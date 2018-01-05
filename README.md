@@ -1,4 +1,4 @@
-Lien vers le diapo drive : https://drive.google.com/open?id=1kZmobaLUInqyEL9ylhOZvzZrMQTL8v9vPvg8C6GTepw
+Lien vers le dossier drive : https://drive.google.com/drive/folders/1G_bVH8AiEsM1fX6PCPQL2Yp4NwuD4uxG?usp=sharing
 Lien vers les librairies : https://drive.google.com/file/d/1bu1eOr1hf9UCoL1Eox3gWI0SnGHqK9pn/view?usp=sharing
 
 # Mytho structure du tp :
