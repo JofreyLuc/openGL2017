@@ -141,7 +141,7 @@ void SceneOpenGL::bouclePrincipale()
 
     // Caméra mobile
 
-    Camera camera(vec3(3, 3, 3), vec3(0, 0, 0), vec3(0, 1, 0), 0.5, 0.5);
+    // camera(vec3(3, 3, 3), vec3(0, 0, 0), vec3(0, 1, 0), 0.5, 0.5);
     m_input.afficherPointeur(false);
     m_input.capturerPointeur(true);
 
@@ -249,6 +249,9 @@ void SceneOpenGL::bouclePrincipale()
         // Restauration de la matrice
 
       modelview = sauvegardeModelview;
+
+
+	  modelview = lookAt(vec3(-15, 15, 0), vec3(0,0,0), vec3(0,1,0));
 
 
         // Activation du shader

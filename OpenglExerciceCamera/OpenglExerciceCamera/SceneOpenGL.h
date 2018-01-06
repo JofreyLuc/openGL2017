@@ -32,7 +32,6 @@
 #include "Caisse.h"
 #include "Input.h"
 #include "Texture.h"
-#include "Camera.h"
 
 
 

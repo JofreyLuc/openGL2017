@@ -79,7 +79,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Caisse.h" />
-    <ClInclude Include="Camera.h" />
     <ClInclude Include="Cube.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="SceneOpenGL.h" />
@@ -88,7 +87,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Caisse.cpp" />
-    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="Cube.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
