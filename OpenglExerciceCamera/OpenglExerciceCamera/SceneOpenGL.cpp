@@ -215,29 +215,6 @@ void SceneOpenGL::bouclePrincipale()
 	   //====================================================
 	   // Ici les modifications à apporter à modelview pour faire bouger la caisse.
 
-			if (m_input.getTouche(SDL_SCANCODE_O))
-			{
-				avant_arriere += cos(angle) * 0.1;
-				gauche_droite -= sin(angle) * 0.1;
-			}
-			if (m_input.getTouche(SDL_SCANCODE_L))
-			{
-				avant_arriere += cos(angle) * -0.1;
-				gauche_droite -= sin(angle) * -0.1;
-			}
-			if (m_input.getTouche(SDL_SCANCODE_K))
-			{
-				angle += 0.1;
-			}
-			if (m_input.getTouche(SDL_SCANCODE_SEMICOLON))
-			{
-				angle -= 0.1;
-			}
-			std::cout << "angle : " << angle << "   mod : " << fmod(angle,2*M_PI) << std::endl;
-			modelview = translate(modelview, vec3(avant_arriere, 0.5, gauche_droite));
-			modelview = rotate(modelview, angle, vec3(0, 1.0, 0));
-
-
 		//=======================================================
 
 			
