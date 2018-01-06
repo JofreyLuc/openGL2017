@@ -196,7 +196,6 @@ void SceneOpenGL::bouclePrincipale()
         if(m_input.getTouche(SDL_SCANCODE_ESCAPE))
            break;
 
-		camera.deplacer(m_input);
 
         // Nettoyage de l'écran
 
@@ -205,7 +204,7 @@ void SceneOpenGL::bouclePrincipale()
 
         // Gestion de la caméra
 
-        camera.lookAt(modelview);
+        //camera.lookAt(modelview);
 
 		
 

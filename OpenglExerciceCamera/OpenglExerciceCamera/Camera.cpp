@@ -106,46 +106,10 @@ void Camera::orienter(int xRel, int yRel)
 
 void Camera::deplacer(Input const &input)
 {
-    // Gestion de l'orientation
+    //===========================================
+	// Ici votre code
+	//La camera est orienté par la souris et déplacé par des touches du claviers
 
-    if(input.mouvementSouris())
-        orienter(input.getXRel(), input.getYRel());
-
-
-    // Avancée de la caméra
-
-    if(input.getTouche(SDL_SCANCODE_UP))
-    {
-        m_position = m_position + m_orientation * m_vitesse;
-        m_pointCible = m_position + m_orientation;
-    }
-
-
-    // Recul de la caméra
-
-    if(input.getTouche(SDL_SCANCODE_DOWN))
-    {
-        m_position = m_position - m_orientation * m_vitesse;
-        m_pointCible = m_position + m_orientation;
-    }
-
-
-    // Déplacement vers la gauche
-
-    if(input.getTouche(SDL_SCANCODE_LEFT))
-    {
-        m_position = m_position + m_deplacementLateral * m_vitesse;
-        m_pointCible = m_position + m_orientation;
-    }
-
-
-    // Déplacement vers la droite
-
-    if(input.getTouche(SDL_SCANCODE_RIGHT))
-    {
-        m_position = m_position - m_deplacementLateral * m_vitesse;
-        m_pointCible = m_position + m_orientation;
-    }
 }
 
 
