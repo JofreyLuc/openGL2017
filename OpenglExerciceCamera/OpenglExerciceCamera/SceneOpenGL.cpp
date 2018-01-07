@@ -204,8 +204,7 @@ void SceneOpenGL::bouclePrincipale()
 
         // Gestion de la caméra
 
-        //camera.lookAt(modelview);
-
+		
 		
 
         // Sauvegarde de la matrice modelview
@@ -250,7 +249,7 @@ void SceneOpenGL::bouclePrincipale()
 
       modelview = sauvegardeModelview;
 
-
+	  modelview = lookAt(vec3(-15, 15, 0), vec3(0, 0, 0), vec3(0, 1, 0));
         // Activation du shader
 
         glUseProgram(shaderTexture.getProgramID());
