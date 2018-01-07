@@ -178,9 +178,6 @@ void SceneOpenGL::bouclePrincipale()
 
     // Boucle principale
 
-	double avant_arriere = 0;
-	double gauche_droite = 0;
-	float angle = 0;
 
     while(!m_input.terminer())
     {
@@ -215,7 +212,7 @@ void SceneOpenGL::bouclePrincipale()
 	   //====================================================
 	   // Ici les modifications à apporter à modelview pour faire bouger la caisse.
 
-		//=======================================================
+	   //=======================================================
 
 			
 			// Affichage du cube
