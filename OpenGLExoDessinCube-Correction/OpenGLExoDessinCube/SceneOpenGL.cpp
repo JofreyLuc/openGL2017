@@ -101,7 +101,7 @@ void SceneOpenGL::bouclePrincipale()
 	modelview = mat4(1.0);
 
 	// Déclaration d'un objet Cube
-	Cube cube(2.0, "Shaders/couleur3D.vert", "Shaders/couleur3D.frag");
+	Cube cube("Shaders/couleur3D.vert", "Shaders/couleur3D.frag");
 
 	// Boucle principale
 	while (!terminer)

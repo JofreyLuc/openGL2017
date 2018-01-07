@@ -16,7 +16,7 @@ class Cube
 {
 	public:
 
-		Cube(float taille, string const vertexShader, string const fragmentShader);
+		Cube(string const vertexShader, string const fragmentShader);
 		~Cube();
 
 		void afficher(mat4 &projection, mat4 &modelview);
