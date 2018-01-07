@@ -139,9 +139,9 @@ void SceneOpenGL::bouclePrincipale()
     modelview = mat4(1.0);
 
 
-    // Caméra mobile
+    // Ici, la camera
 
-    Camera camera(vec3(3, 3, 3), vec3(0, 0, 0), vec3(0, 1, 0), 0.5, 0.5);
+    
     m_input.afficherPointeur(false);
     m_input.capturerPointeur(true);
 
