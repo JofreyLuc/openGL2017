@@ -5,7 +5,7 @@ int main(int argc, char **argv)
 {
     // Création de la sène
 
-    SceneOpenGL scene("OpenGL", 800, 800);
+    SceneOpenGL scene("Exercice Caisse", 800, 800);
 
 
     // Initialisation de la scène
