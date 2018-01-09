@@ -12,10 +12,9 @@
 #include <string>
 #include "Shader.h"
 #include "Cube.h"
-#include "Input.h"
 #include "Texture.h"
 #include "Caisse.h"
-#include "Camera.h"
+
 
 
 // Classe
