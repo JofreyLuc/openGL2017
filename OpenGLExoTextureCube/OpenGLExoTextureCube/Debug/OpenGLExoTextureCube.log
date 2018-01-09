@@ -1,0 +1,23 @@
+﻿La génération a démarré 09/01/2018 16:11:58.
+     1>Projet "E:\Fac\Projets\OpenGL\openGL2017\OpenGLExoTextureCube\OpenGLExoTextureCube\OpenGLExoTextureCube.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Fac\Projets\OpenGL\Librairies\SDL2-devel-2.0.6-VC\SDL2-2.0.6\include" /I"E:\Fac\Projets\OpenGL\Librairies\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\include" /I"E:\Fac\Projets\OpenGL\Librairies\glm-0.9.8.5\glm" /I"E:\Fac\Projets\OpenGL\Librairies\glew-2.1.0-win32\glew-2.1.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cube.cpp SceneOpenGL.cpp Shader.cpp Source.cpp Texture.cpp
+         Texture.cpp
+         Source.cpp
+         Shader.cpp
+         SceneOpenGL.cpp
+         Cube.cpp
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Fac\Projets\OpenGL\openGL2017\OpenGLExoTextureCube\Debug\OpenGLExoTextureCube.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\Fac\Projets\OpenGL\Librairies\SDL2-devel-2.0.6-VC\SDL2-2.0.6\lib\x86" /LIBPATH:"E:\Fac\Projets\OpenGL\Librairies\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\lib\x86" /LIBPATH:"E:\Fac\Projets\OpenGL\Librairies\glew-2.1.0-win32\glew-2.1.0\lib\Release\Win32" opengl32.lib glew32.lib SDL2main.lib SDL2.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Fac\Projets\OpenGL\openGL2017\OpenGLExoTextureCube\Debug\OpenGLExoTextureCube.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Fac\Projets\OpenGL\openGL2017\OpenGLExoTextureCube\Debug\OpenGLExoTextureCube.lib" /MACHINE:X86 Debug\Cube.obj
+         Debug\SceneOpenGL.obj
+         Debug\Shader.obj
+         Debug\Source.obj
+         Debug\Texture.obj
+            Création de la bibliothèque E:\Fac\Projets\OpenGL\openGL2017\OpenGLExoTextureCube\Debug\OpenGLExoTextureCube.lib et de l'objet E:\Fac\Projets\OpenGL\openGL2017\OpenGLExoTextureCube\Debug\OpenGLExoTextureCube.exp
+         OpenGLExoTextureCube.vcxproj -> E:\Fac\Projets\OpenGL\openGL2017\OpenGLExoTextureCube\Debug\OpenGLExoTextureCube.exe
+     1>Génération du projet "E:\Fac\Projets\OpenGL\openGL2017\OpenGLExoTextureCube\OpenGLExoTextureCube\OpenGLExoTextureCube.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.89
