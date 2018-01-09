@@ -1,5 +1,5 @@
 #include "Carre.h"
-
+#include "Shader.h"
 // Constructeur et Destructeur
 
 Carre::Carre()
@@ -22,10 +22,28 @@ Carre::~Carre()
 
 void Carre::afficher()
 {
+	
+	float couleurs[] = { 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, //tri 1
+						 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0 }; //tri 2
 	// Envoi des sommets
+	Shader shaderCouleur("Shaders/couleur2D.vert", "Shaders/couleur2D.frag");
+	shaderCouleur.charger();
+
+
+	glUseProgram(shaderCouleur.getProgramID());
+
+
+	// Envoi des vertices
 
 	glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 0, sommets);
 	glEnableVertexAttribArray(0);
+
+
+	// Envoi des couleurs
+
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, couleurs);
+	glEnableVertexAttribArray(1);
+
 
 	// On affiche le Carre
 

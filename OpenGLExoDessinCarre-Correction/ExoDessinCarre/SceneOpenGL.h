@@ -6,6 +6,7 @@
 #include <SDL.h>
 #include <GL\glew.h>
 
+
 using namespace std;
 
 class SceneOpenGL

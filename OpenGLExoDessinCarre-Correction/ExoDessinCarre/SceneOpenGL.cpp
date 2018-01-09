@@ -1,5 +1,22 @@
 #include "SceneOpenGL.h"
 #include "Carre.h"
+#include "Shader.h"
+// Includes OpenGL
+
+// Includes GLM
+
+#include <glm.hpp>
+#include <gtx/transform.hpp>
+#include <gtc/type_ptr.hpp>
+
+
+// Autres includes
+
+#include <SDL.h>
+#include <iostream>
+#include <string>
+#include "Shader.h"
+
 
 SceneOpenGL::SceneOpenGL(string titre, int largeur, int hauteur)
 {
@@ -85,6 +102,7 @@ bool SceneOpenGL::initGL()
 
 void SceneOpenGL::bouclePrincipale()
 {
+
 	// Variables
 	bool terminer(false);
 

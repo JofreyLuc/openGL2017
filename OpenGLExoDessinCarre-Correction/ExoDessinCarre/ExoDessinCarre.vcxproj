@@ -86,10 +86,12 @@
   <ItemGroup>
     <ClInclude Include="Carre.h" />
     <ClInclude Include="SceneOpenGL.h" />
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Carre.cpp" />
     <ClCompile Include="SceneOpenGL.cpp" />
+    <ClCompile Include="Shader.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
